@@ -47,8 +47,8 @@
     ],
     "all": true
   },
-  "husky": {
-    "hooks": {
+  "husky1": {
+    "hooks1": {
       "pre-commit": "lint-staged && npm run remark",
       "pre-push": "npm run test"
     }
