@@ -7,24 +7,27 @@ const { buildErrObject } = require('../../../middleware/utils')
  * @param {Object} req - request object
  */
 const createItemInDb = ({
-  name = '',
   email = '',
   password = '',
-  role = '',
-  phone = '',
-  city = '',
-  country = ''
+  firstName = '',
+  lastName = '',
+  age = '',
+  gender = '',
+  zipCode = '',
+  profession = '' | null
 }) => {
   return new Promise((resolve, reject) => {
     const user = new User({
-      name,
       email,
       password,
+      firstName,
+      lastName,
+      age,
+      gender,
+      zipCode,
+      profession?: string,
       role,
-      phone,
-      city,
-      country,
-      verification: uuid.v4()
+      verification: uuid.v4(),
     })
     user.save((err, item) => {
       if (err) {
