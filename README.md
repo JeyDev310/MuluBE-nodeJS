@@ -1,6 +1,6 @@
 # Node-Express-MongoDB-JWT REST API 
 
-[![Author](http://img.shields.io/badge/author-@davellanedam-blue.svg?style=flat-square)](https://www.linkedin.com/in/chungang-li-a1643b1b9)
+[![Author](http://img.shields.io/badge/Author-@Chungang%20Li-blue.svg?style=flat-square)](https://www.linkedin.com/in/chungang-li-a1643b1b9)
 
 ## Description
 
